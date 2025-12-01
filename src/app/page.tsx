@@ -18,7 +18,15 @@ export default async function IndexPage() {
 
   return (
     <main className="container mx-auto min-h-screen max-w-3xl p-8">
-      Hei, jeg heter Elmir og jeg elsker planter!
+      <p className="text-xl mb-4">
+        Hei, jeg heter Elmir og jeg elsker planter!
+      </p>
+
+      <img
+        src="https://images.squarespace-cdn.com/content/v1/514f916de4b04c6ad186e00d/1588779228945-F4WGW8ZN8X8N1KKSUCGX/STAYIN_ALIVE_PLANT.gif?format=2500w"
+        alt="Plant dancing"
+        style={{ width: "400px" }}
+      />
     </main>
   );
 }
