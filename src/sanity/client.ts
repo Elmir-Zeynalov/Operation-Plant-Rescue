@@ -1,8 +1,8 @@
 import { createClient } from '@sanity/client'
 
 export const client = createClient({
-  projectId: 'zcmn8w05', // Replace with your Sanity project ID
-  dataset: 'production', // Replace with your Sanity dataset name
-  useCdn: false, // Set to `false` for real-time data, `true` for cached data
-  apiVersion: '2025-02-06', // Use the current date (YYYY-MM-DD) for the latest API version
+  projectId: 'zcmn8w05',
+  dataset: 'production',
+  useCdn: false,
+  apiVersion: '2025-02-06',
 })

@@ -1,7 +1,5 @@
 import Link from 'next/link'
 import { type SanityDocument } from 'next-sanity'
-import Image from 'next/image'
-
 import { client } from '../sanity/client'
 
 const PLANTS_QUERY = `*[_type == "plant"]{
