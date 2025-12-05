@@ -88,11 +88,11 @@ export default async function PlantPage({ params }: PlantPageProps) {
 
       <p className="text-gray-700">{plant.description}</p>
 
-      <section className="mt-6 rounded-2xl border border-emerald-700/40 bg-emerald-900/40 p-4 sm:p-5">
-        <h2 className="mb-2 flex items-center gap-2 text-base font-semibold text-emerald-200">
-          <span>🧪 Plant Facts</span>
+      <section className="mt-6 rounded-2xl border border-yellow-600/30 bg-yellow-900/20 p-4 sm:p-5">
+        <h2 className="mb-2 flex items-center gap-2 text-base font-semibold text-yellow-300">
+          🌱 Plant Facts
         </h2>
-        <div className="text-sm leading-relaxed text-emerald-50/90">
+        <div className="text-sm leading-relaxed text-yellow-100/90">
           <PortableText value={plant.fact} components={portableTextComponents} />
         </div>
       </section>
